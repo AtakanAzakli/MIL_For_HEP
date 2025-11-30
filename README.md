@@ -1,4 +1,39 @@
-# MIL_For_HEP
-The repository for the paper "Reaching Theoretical Maximum Fisher Information With Multiple Instance Learning"
+# MIL_for_HEP
 
-The code and the data will be provided as soon as possible.
+> The code repository for the paper **"Increasing Information Extraction in Low-Signal Regimes via Multiple Instance Learning"**
+
+---
+
+## Overview
+
+This repository is organized to allow reproduction of the training runs and of the figures reported in the paper.
+
+## Requirements
+
+- **Python** 3.8+ (we recommend 3.10)
+- `pip` and a virtual environment manager (venv, virtualenv, or conda)
+
+Create and activate a virtual environment (example using `venv` on macOS/Linux):
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Install the Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Repository structure
+
+```
+MIL_for_HEP/
+├─ training/                 # Training scripts used to run experiments
+├─ dataset/                  # Contains instructions, and generation scripts
+├─ analysis_and_plots/       # Scripts to reproduce figures and tables
+├─ src/                      # Helper functions, and YAML config files
+├─ requirements.txt
+└─ README.md
+```
