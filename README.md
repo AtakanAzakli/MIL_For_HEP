@@ -1,12 +1,12 @@
 # MIL_for_HEP
 
-> **Anonymous** code repository for the paper **"Increasing Information Extraction in Low-Signal Regimes via Multiple Instance Learning"**
+> The code repository for the paper **"Increasing Information Extraction in Low-Signal Regimes via Multiple Instance Learning"**
 
 ---
 
 ## Overview
 
-This repository contains the code used for the experiments in the submission. It is organized to allow reproduction of the training runs and of the figures reported in the paper while keeping the repository anonymous for double-blind review.
+This repository is organized to allow reproduction of the training runs and of the figures reported in the paper.
 
 ## Requirements
 
